@@ -1,0 +1,8 @@
+.input {
+  display: none;
+}
+
+.fileUpload {
+  color: var(--color-quarternary);
+  letter-spacing: 0.5rem;
+}
