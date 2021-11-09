@@ -2,16 +2,58 @@ import React from 'react';
 
 function Styleguide() {
   return (
-    <div>
+    <div style={{ margin: '0px', display: 'grid', gap: '5rem' }}>
       <h2>COLORS</h2>
-      <ul>
-        <li style={{ color: 'var(--color-primary)' }}>Primary</li>
-        <li style={{ color: 'var(--color-secondary)' }}>Secondary</li>
-        <li style={{ color: 'var(--color-tertiary)' }}>Tertiary</li>
-        <li style={{ color: 'var(--color-quarternary)' }}>Quarternary</li>
-        <li style={{ color: 'var(--color-background)' }}>Background</li>
-      </ul>
-      <div>
+      <div style={{ display: 'flex', gap: '0.5rem' }}>
+        <div style={{ display: 'grid', gap: '0.5rem' }}>
+          <div
+            style={{
+              width: '2rem',
+              height: '2rem',
+              borderRadius: '50%',
+              background: 'var(--color-primary)',
+            }}
+          ></div>
+          <div
+            style={{
+              width: '2rem',
+              height: '2rem',
+              borderRadius: '50%',
+              background: 'var(--color-secondary)',
+            }}
+          ></div>
+        </div>
+        <div style={{ display: 'grid', gap: '0.5rem' }}>
+          <div
+            style={{
+              width: '2rem',
+              height: '2rem',
+              borderRadius: '50%',
+              background: 'var(--color-tertiary)',
+            }}
+          ></div>
+          <div
+            style={{
+              width: '2rem',
+              height: '2rem',
+              borderRadius: '50%',
+              background: 'var(--color-quarternary)',
+            }}
+          ></div>
+        </div>
+        <div style={{ display: 'grid', gap: '0.5rem' }}>
+          <div
+            style={{
+              width: '2rem',
+              height: '2rem',
+              borderRadius: '50%',
+              border: '0.1px solid var(--color-primary)',
+              background: 'var(--color-background)',
+            }}
+          ></div>
+        </div>
+      </div>
+      <div style={{ display: 'grid', gap: '0.5rem' }}>
         <h2>FONT</h2>
         <p>Lato</p>
       </div>
@@ -23,6 +65,13 @@ function Styleguide() {
         <h4>Headline 4</h4>
         <h5>Headline 5</h5>
         <p>Paragraph</p>
+        <p
+          style={{
+            color: 'var(--color-quarternary',
+          }}
+        >
+          Link
+        </p>
       </div>
       <div
         style={{
