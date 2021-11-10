@@ -6,3 +6,7 @@
   color: var(--color-quarternary);
   letter-spacing: 0.5rem;
 }
+
+p:hover {
+  opacity: 60%;
+}
