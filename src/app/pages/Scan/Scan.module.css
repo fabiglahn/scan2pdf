@@ -18,3 +18,8 @@
   color: var(--color-quarternary);
   text-transform: uppercase;
 }
+
+p {
+  overflow: scroll;
+  height: 100%;
+}

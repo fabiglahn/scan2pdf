@@ -10,3 +10,7 @@
 p:hover {
   opacity: 60%;
 }
+
+.preview {
+  width: 100%;
+}
