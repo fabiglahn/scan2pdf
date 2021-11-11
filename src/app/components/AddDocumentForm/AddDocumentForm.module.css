@@ -1,0 +1,46 @@
+.submit {
+  color: var(--color-background);
+  background: var(--color-primary);
+  border-radius: 0.6rem;
+  padding: 0.5em 1em;
+  border: none;
+  transition: 0.2s opacity;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: 1fr;
+  column-gap: 0.5rem;
+  row-gap: 1rem;
+  place-items: center;
+  background-color: var(--color-primary);
+  padding: 0.75rem;
+  border-radius: 1rem;
+}
+
+.form__submit {
+  color: var(--color-secondary);
+  background: var(--color-quaternary);
+  border-radius: 24px;
+  padding: 0.85em 2.75em;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.235em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.form:active {
+  opacity: 90%;
+}
+
+.form:hover {
+  opacity: 80%;
+}
+
+.form:disabled {
+  opacity: 50%;
+}

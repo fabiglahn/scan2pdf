@@ -5,8 +5,9 @@ import styles from './Progress.module.css';
 function Progress({ status, progress }: RecognizeProgress): JSX.Element {
   return (
     <aside className={styles.container}>
+      <p>{(progress * 100).toFixed(0)}%</p>
       {status}
-      <progress value={progress * 100} max={100} />
+      <progress value={progress} max={100} />
     </aside>
   );
 }
