@@ -23,7 +23,7 @@
 .form__submit {
   color: var(--color-secondary);
   background: var(--color-quaternary);
-  border-radius: 24px;
+  border-radius: 1.5rem;
   padding: 0.85em 2.75em;
   border: none;
   text-align: center;

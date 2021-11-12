@@ -13,4 +13,5 @@ p:hover {
 
 .preview {
   width: 100%;
+  text-transform: uppercase;
 }
