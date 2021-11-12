@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  background-color: var(--color-background);
+  grid-template-rows: 10% 1fr;
+  color: var(--color-primary);
+  font-family: var(--font);
+  font-weight: 300;
+  overflow: scroll;
+  height: 100vh;
+}
+
+.h1 {
+  text-transform: uppercase;
+}
