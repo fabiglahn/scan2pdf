@@ -20,14 +20,13 @@ function Documents(): JSX.Element {
     <div className={styles.container}>
       <SearchBar />
       <div>
-        {documents &&
-          documents.map((document) => (
-            <DocPreview
-              title={document.title}
-              text={document.text}
-              key={document.id}
-            />
-          ))}
+        {documents?.slice(0, 5).map((document) => (
+          <DocPreview
+            title={document.title}
+            text={document.text}
+            key={document.id}
+          />
+        ))}
       </div>
     </div>
   );

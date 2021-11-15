@@ -1,13 +1,17 @@
 .submit {
   font-size: 1rem;
   background-color: var(--color-quarternary);
+  color: white;
+  border: 1rem;
 }
 
 .search {
   font-size: 1em;
+  background-color: var(--color-secondary);
 }
 
 .searchbar {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
 }
