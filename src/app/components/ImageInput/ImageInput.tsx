@@ -29,7 +29,7 @@ function ImageInput({ onImageUpload }: ImageInputProps) {
       {imageURL ? (
         <img src={imageURL} className={styles.preview} />
       ) : (
-        <p>▷ UPLOAD A PICTURE</p>
+        <p>▷ Upload a picture</p>
       )}
     </label>
   );
